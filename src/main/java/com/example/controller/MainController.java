@@ -1,5 +1,6 @@
 package com.example.controller;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import org.slf4j.Logger;
@@ -26,7 +27,7 @@ public class MainController {
 	
 	@PostMapping(value = "/write")
 	public Map<String, Object> write(){
-		return null;
+		return new HashMap<>();
 	}
 	
 	@PostMapping(value = "/update")
